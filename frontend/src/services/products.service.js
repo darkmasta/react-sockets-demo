@@ -24,10 +24,6 @@ class ProductService {
   deleteAll() {
     return http.delete(`/products`);
   }
-
-  findByTitle(title) {
-    return http.get(`/tutorials?title=${title}`);
-  }
 }
 
 export default new ProductService();
