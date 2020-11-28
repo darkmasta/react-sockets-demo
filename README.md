@@ -6,8 +6,8 @@ npm install
 node app.js
 ```
 
-### Frontend setup
+### In the frontend folder
 ```
 npm install
-npm run serve
+npm start
 ```
